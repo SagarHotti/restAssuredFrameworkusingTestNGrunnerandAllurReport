@@ -1,9 +1,6 @@
 package testclasspackage;
 
-import static io.restassured.RestAssured.given;
-
 import java.io.IOException;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import org.testng.Assert;
@@ -75,16 +72,6 @@ public class post_tc_3 {
 			Assert.assertNotNull(res_id);
 			Assert.assertEquals(trim_date, exp_date);
 			
-			
-			//Assert.assertEquals(res_name, "morpheus");
-			//Assert.assertEquals(res_job, "leader");
-			//Assert.assertNotNull(res_id,"assertion error,id parameter is not null");
-			
-			 
-		    //extract data from createdAt parameter
-		    //String actual_date = res_createdAt.substring(0,10);
-		    //String current_date = LocalDate.now().toString(); 
-		    //Assert.assertEquals(actual_date,current_date);
 			
 			}
 		
